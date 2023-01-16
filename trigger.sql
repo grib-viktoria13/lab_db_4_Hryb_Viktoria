@@ -21,3 +21,8 @@ CREATE TRIGGER country_insert
 AFTER INSERT ON artist
 FOR EACH ROW EXECUTE FUNCTION upper_country()
 
+-- Перевірка роботи.
+
+---DELETE FROM artist where id = 10;
+
+---select * from artist;
